@@ -43,45 +43,27 @@ interface Date {
   xq_format(fmt : string) : string;
 }
 
-/**
- * 时间格式化 yyyy-MM-dd HH:mm:ss
- */
+
 Date.prototype.xq_format_yyyy_MM_dd_HH_mm_ss = function () : string {
   return this.xq_format("yyyy-MM-dd HH:mm:ss");
 }
 
-/**
- * 时间格式化 yyyy-MM-dd
- */
 Date.prototype.xq_format_yyyy_MM_dd = function () : string {
   return this.xq_format("yyyy-MM-dd");
 }
 
-/**
- * 时间格式化 yyyy-MM-dd HH:mm:ss
- */
 Date.prototype.xq_format_MM_dd_HH_mm = function () : string {
   return this.xq_format("MM-dd HH:mm");
 }
 
-/**
- * 时间格式化 HH:mm:ss
- */
 Date.prototype.xq_format_HH_mm_ss = function () : string {
   return this.xq_format("HH:mm:ss");
 }
 
-/**
- * 时间格式化 HH:mm:ss
- */
 Date.prototype.xq_format_HH_mm = function () : string {
   return this.xq_format("HH:mm");
 }
 
-/**
- * 时间格式化
- * @param fmt 格式化文本
- */
 Date.prototype.xq_format = function(fmt: string) : string { //author: meizz   
 
   if (this.getFullYear() < 10) {
