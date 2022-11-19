@@ -9,7 +9,6 @@
 /**
  * 类 扩展工具类
  */
-// eslint-disable-next-line
 interface Object {
 
   // 是否为空

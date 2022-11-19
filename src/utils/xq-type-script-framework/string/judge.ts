@@ -11,17 +11,18 @@
  */
 interface String {
 
-  // 是否是电话号码
+  /**
+   * 是否是电话号码
+   */
   xq_isPhone() : boolean;
 
-  // 是否是数字
+  /**
+   * 是否是数字
+   */
   xq_isNumber() : boolean;
 
 }
 
-/**
- * 是否是电话号码
- */
 String.prototype.xq_isPhone = function () : boolean {
   if (this.xq_isNull()) return false;
 
@@ -29,9 +30,6 @@ String.prototype.xq_isPhone = function () : boolean {
   return reg.test(this.toString());
 }
 
-/**
- * 是否是数字
- */
 String.prototype.xq_isNumber = function () : boolean {
   if (this.xq_isNull()) return false;
 

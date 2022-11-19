@@ -11,19 +11,22 @@
  */
 interface String {
 
-  // 获得纯文件名，带后缀
+  /** 
+   * 获得纯文件名，带后缀
+   */
   xq_lastPathComponent() : string | undefined ; 
 
-  // 获得文件路径，不带后缀
+  /**
+   * 获得文件路径，不带后缀
+   */
   xq_stringByDeletingPathExtension() : string | undefined ;
 
-  // 获得文件后缀
+  /**
+   * 获得文件后缀
+   */
   xq_pathExtension() : string | undefined ;
 }
 
-/**
- * 获得纯文件名，带后缀
- */
 String.prototype.xq_lastPathComponent = function () : string | undefined {
   if (this.xq_isNull()) return undefined;
 
@@ -36,9 +39,6 @@ String.prototype.xq_lastPathComponent = function () : string | undefined {
   }
 }
 
-/**
- * 获得文件路径，不带后缀
- */
 String.prototype.xq_stringByDeletingPathExtension = function () : string | undefined {
   if (this.xq_isNull()) return undefined;
 
@@ -51,9 +51,6 @@ String.prototype.xq_stringByDeletingPathExtension = function () : string | undef
   }
 }
 
-/**
- * 获得文件路径，不带后缀
- */
 String.prototype.xq_pathExtension = function () : string | undefined {
   if (this.xq_isNull()) return undefined;
 

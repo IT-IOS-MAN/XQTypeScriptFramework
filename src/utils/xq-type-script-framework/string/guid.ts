@@ -11,14 +11,13 @@
  */
 interface String {
 
-  // 唯一标识
+  /**
+   * 唯一标识
+   */
   xq_GUID() : string; 
   
 }
 
-/**
- * guid
- */
 String.prototype.xq_GUID = function () : string {
   return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
     const r = Math.random() * 16 | 0,

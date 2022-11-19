@@ -11,22 +11,35 @@
  */
 interface Date {
 
-  // 时间格式化 yyyy-MM-dd HH:mm:ss
+  /**
+   * 时间格式化 yyyy-MM-dd HH:mm:ss
+   */
   xq_format_yyyy_MM_dd_HH_mm_ss() : string;
 
-  // 时间格式化 yyyy-MM-dd
+  /**
+   * 时间格式化 yyyy-MM-dd
+   */
   xq_format_yyyy_MM_dd() : string;
 
-  // 时间格式化 MM-dd HH:mm
+  /**
+   * 时间格式化 MM-dd HH:mm
+   */
   xq_format_MM_dd_HH_mm() : string;
 
-  // 时间格式化 HH:mm:ss
+  /**
+   * 时间格式化 HH:mm:ss
+   */
   xq_format_HH_mm_ss() : string;
 
-  // 时间格式化 HH:mm
+  /**
+   * 时间格式化 HH:mm
+   */
   xq_format_HH_mm() : string;
 
-  // 时间格式化
+  /**
+   * 时间格式化
+   * @param fmt 时间格式化格式
+   */
   xq_format(fmt : string) : string;
 }
 

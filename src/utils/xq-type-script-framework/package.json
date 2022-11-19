@@ -1,0 +1,31 @@
+{
+    "name": "xq-type-script-framework",
+    "version": "1.0.2",
+    "description": "type script framework",
+    "main": "index.ts",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com/IT-IOS-MAN/XQTypeScriptFramework.git"
+    },
+    "keywords": [
+        "Base",
+        "Framework",
+        "Vue",
+        "WeChatProjects"
+    ],
+    "author": "IT_IOS_MAN",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/IT-IOS-MAN/XQTypeScriptFramework/issues"
+    },
+    "homepage": "https://github.com/IT-IOS-MAN/XQTypeScriptFramework#readme",
+    "files": [
+        "array",
+        "date",
+        "string",
+        "object"
+    ]
+}
