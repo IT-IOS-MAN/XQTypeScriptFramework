@@ -2,7 +2,7 @@
   <div class="view-wrap">
     <h1>{{ msg }}</h1>
 
-    
+    <img class="介绍" src="../assets/LY3Z3.png" />
   </div>
 </template>
 
