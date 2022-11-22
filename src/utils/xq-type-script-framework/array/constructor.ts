@@ -9,7 +9,7 @@
 /**
  * 数组扩展工具类
  */
-interface Array< T > {
+interface Array< T > extends Object {
 
   /**
    * 获取第一个元素

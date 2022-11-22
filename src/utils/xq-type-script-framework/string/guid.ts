@@ -9,7 +9,7 @@
 /**
  *  扩展工具类
  */
-interface String {
+interface String extends Object {
 
   /**
    * 唯一标识

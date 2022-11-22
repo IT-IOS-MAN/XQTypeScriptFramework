@@ -9,7 +9,7 @@
 /**
  * 字符串 扩展工具类
  */
-interface String {
+interface String extends Object {
 
   /** 
    * 获得纯文件名，带后缀

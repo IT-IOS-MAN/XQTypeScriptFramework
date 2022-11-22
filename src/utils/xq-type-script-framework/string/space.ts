@@ -9,7 +9,7 @@
 /**
  * 字符串 扩展工具类
  */
-interface String {
+interface String extends Object {
 
   /**
    * 去掉多余空格

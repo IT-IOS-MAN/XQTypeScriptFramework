@@ -9,7 +9,7 @@
 /**
  * 日期扩展工具类
  */
-interface Date {
+interface Date extends Object {
 
   /**
    * 时间格式化 yyyy-MM-dd HH:mm:ss
