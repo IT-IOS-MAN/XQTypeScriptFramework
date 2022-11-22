@@ -25,13 +25,13 @@ interface Array< T > {
    * 添加一个元素
    * @param obj  元素
    */ 
-  xq_addElement(obj: T, index: number): void;
+  xq_addElement(obj: T): void;
 
   /**
    * 添加一组元素
    * @param objs  元素
    */ 
-  xq_addElements(objs: T[], index: number): void;
+  xq_addElements(objs: T[]): void;
 
   /**
    * 插入一个元素
