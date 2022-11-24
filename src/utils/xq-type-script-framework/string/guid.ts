@@ -6,17 +6,6 @@
 //  Copyright © 2020 IT_IOS_MAN. All rights reserved.
 //
 
-/**
- *  扩展工具类
- */
-interface String extends Object {
-
-  /**
-   * 唯一标识
-   */
-  xq_GUID() : string; 
-  
-}
 
 String.prototype.xq_GUID = function () : string {
   return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {

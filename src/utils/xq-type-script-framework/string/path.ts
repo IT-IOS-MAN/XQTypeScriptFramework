@@ -6,27 +6,6 @@
 //  Copyright © 2020 IT_IOS_MAN. All rights reserved.
 //
 
-/**
- * 字符串 扩展工具类
- */
-interface String extends Object {
-
-  /** 
-   * 获得纯文件名，带后缀
-   */
-  xq_lastPathComponent() : string | undefined ; 
-
-  /**
-   * 获得文件路径，不带后缀
-   */
-  xq_stringByDeletingPathExtension() : string | undefined ;
-
-  /**
-   * 获得文件后缀
-   */
-  xq_pathExtension() : string | undefined ;
-}
-
 String.prototype.xq_lastPathComponent = function () : string | undefined {
   if (this.xq_isNull()) return undefined;
 

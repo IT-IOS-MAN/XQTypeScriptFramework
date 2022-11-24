@@ -6,18 +6,6 @@
 //  Copyright © 2020 IT_IOS_MAN. All rights reserved.
 //
 
-/**
- * 类 扩展工具类
- */
-interface Object {
-
-  // 是否为空
-  xq_isNull() : boolean;
-
-  // 是否不为空
-  xq_isNotNull() : boolean;
-}
-
 
 /**
  * 对象是否为空

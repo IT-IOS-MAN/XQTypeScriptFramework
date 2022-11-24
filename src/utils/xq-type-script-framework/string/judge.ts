@@ -6,22 +6,6 @@
 //  Copyright © 2020 IT_IOS_MAN. All rights reserved.
 //
 
-/**
- * 字符串 扩展工具类
- */
-interface String extends Object {
-
-  /**
-   * 是否是电话号码
-   */
-  xq_isPhone() : boolean;
-
-  /**
-   * 是否是数字
-   */
-  xq_isNumber() : boolean;
-
-}
 
 String.prototype.xq_isPhone = function () : boolean {
   if (this.xq_isNull()) return false;
