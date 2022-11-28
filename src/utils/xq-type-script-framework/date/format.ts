@@ -6,6 +6,8 @@
 //  Copyright © 2020 IT_IOS_MAN. All rights reserved.
 //
 
+/// <reference path="ext.d.ts" /> 
+
 Date.prototype.xq_format_yyyy_MM_dd_HH_mm_ss = function () : string {
   return this.xq_format("yyyy-MM-dd HH:mm:ss");
 }

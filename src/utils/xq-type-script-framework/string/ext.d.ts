@@ -6,10 +6,12 @@
 //  Copyright © 2020 IT_IOS_MAN. All rights reserved.
 //
 
+/// <reference path="./object/ext.d.ts" /> 
+
 /**
- *  扩展工具类 (唯一标识工具类)
+ *  字符串 扩展工具类 (唯一标识工具类)
  */
-interface String {
+interface String extends Object {
 
     /**
      * 唯一标识
@@ -21,7 +23,7 @@ interface String {
 /**
 * 字符串 扩展工具类 (判断工具类)
 */
-interface String {
+interface String extends Object {
 
     /**
      * 是否是电话号码

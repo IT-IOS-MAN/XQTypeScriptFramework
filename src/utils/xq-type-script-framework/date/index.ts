@@ -6,4 +6,5 @@
 //  Copyright © 2020 IT_IOS_MAN. All rights reserved.
 //
 
-/// <reference path="./ext.d.ts" /> 
+import "./constructor.ts"
+import "./format.ts"

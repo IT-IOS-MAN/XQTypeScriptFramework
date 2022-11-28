@@ -14,7 +14,8 @@
     "sourceMap": true,
     "baseUrl": ".",
     "types": [
-      "webpack-env"
+      "webpack-env",
+      "xq-type-script-framework"
     ],
     "paths": {
       "@/*": [
@@ -36,6 +37,8 @@
     "tests/**/*.tsx"
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "tslint:recommended",
+    "tslint-config-prettier"
   ]
 }

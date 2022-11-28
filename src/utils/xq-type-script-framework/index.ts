@@ -13,7 +13,8 @@
 /**
  * XQTypeScriptFramework 
  */
-import "./object/index.d.ts"    // 类 工具类
-import "./string/index.d.ts"    // 字符串 工具类
-import "./array/index.d.ts"     // 数组 工具类
-import "./date/index.d.ts"      // 日期 工具类
+import "./object/index.ts"    // 类 工具类
+import "./string/index.ts"    // 字符串 工具类
+import "./array/index.ts"     // 数组 工具类
+import "./date/index.ts"      // 日期 工具类
+import "./number/index.ts"      // 日期 工具类

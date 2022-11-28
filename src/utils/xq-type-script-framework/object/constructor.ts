@@ -6,11 +6,8 @@
 //  Copyright © 2020 IT_IOS_MAN. All rights reserved.
 //
 
+/// <reference path="./ext.d.ts" /> 
 
-/**
- * 对象是否为空
- * @param obj 
- */
 Object.prototype.xq_isNull = function () : boolean {
   if (typeof this == 'boolean') {
     return false;
@@ -30,10 +27,6 @@ Object.prototype.xq_isNull = function () : boolean {
 
 }
 
-/**
- * 对象是否为空
- * @param obj 
- */
 Object.prototype.xq_isNotNull = function() : boolean {
   return !this.xq_isNull();
 }

@@ -6,6 +6,7 @@
 //  Copyright © 2020 IT_IOS_MAN. All rights reserved.
 //
 
+/// <reference path="./ext.d.ts" /> 
 
 String.prototype.xq_removeSpace = function () : string | undefined {
   if (this.xq_isNull()) return undefined;

@@ -12,6 +12,11 @@ export default defineComponent({
   components: {
     HelloWorld,
   },
+
+  created() {
+    console.log(["qqq"].xq_firstElement());
+    
+  },
 });
 </script>
 

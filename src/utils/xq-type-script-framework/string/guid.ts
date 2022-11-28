@@ -6,6 +6,7 @@
 //  Copyright © 2020 IT_IOS_MAN. All rights reserved.
 //
 
+/// <reference path="./ext.d.ts" /> 
 
 String.prototype.xq_GUID = function () : string {
   return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {

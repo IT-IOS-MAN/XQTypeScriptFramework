@@ -6,20 +6,8 @@
 //  Copyright © 2020 IT_IOS_MAN. All rights reserved.
 //
 
-/**
- * 类 扩展工具类
- */
-interface Object {
-  /**
-   * 模拟深拷贝
-   * @param obj 拷贝对象
-   */
-  xq_deepClone(obj: any) : any;
-}
+/// <reference path="./ext.d.ts" /> 
 
-/*
-* 模拟深拷贝
-*/
 Object.prototype.xq_deepClone = function(obj: any) : any {
   const _obj = JSON.stringify(obj);
   const objClone = JSON.parse(_obj);
