@@ -6,11 +6,12 @@
 //  Copyright © 2020 IT_IOS_MAN. All rights reserved.
 //
 
+/// <reference path="./object/ext.d.ts" /> 
 
 /**
  * 日期扩展工具类
  */
-interface Date {
+interface Date extends Object {
     /**
      * 时间格式化
      * @param fmt 时间格式化格式
@@ -22,7 +23,7 @@ interface Date {
 /**
  * 日期扩展工具类
  */
-interface Date {
+interface Date extends Object {
 
     /**
      * 时间格式化 yyyy-MM-dd HH:mm:ss
