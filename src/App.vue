@@ -15,7 +15,6 @@ export default defineComponent({
 
   created() {
     console.log(["qqq"].xq_isNotNull());
-    
   },
 });
 </script>
