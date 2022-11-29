@@ -6,7 +6,7 @@
 //  Copyright © 2020 IT_IOS_MAN. All rights reserved.
 //
 
-/// <reference path="./ext.d.ts" /> 
+/// <reference path="./ext.d.ts" />  
 
 Array.prototype.xq_firstElement = function<T extends Object>() : T | undefined {
   if (this.xq_isNull()) return undefined;

@@ -6,8 +6,8 @@
 //  Copyright © 2020 IT_IOS_MAN. All rights reserved.
 //
 
-import "./guid.ts"
-import "./path.ts"
-import "./judge.ts"
-import "./space.ts"
-import "./random.ts"
+import "./guid"
+import "./path"
+import "./judge"
+import "./space"
+import "./random"

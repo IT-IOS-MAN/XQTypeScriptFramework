@@ -10,10 +10,10 @@
 
 Date.prototype.xq_format = function (fmt: string): string { //author: meizz   
 
-    if (this.xq_isNull()) return '-';
+    if (this.xq_isNull()) return '';
 
     if (this.getFullYear() < 10) {
-        return '-'
+        return ''
     }
     const o = {
         "M+": this.getMonth() + 1,                 //月份   

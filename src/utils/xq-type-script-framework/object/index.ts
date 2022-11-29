@@ -7,5 +7,5 @@
 //
 
 
-import "./constructor.ts"
-import "./copy.ts"
+import "./constructor"
+import "./copy"

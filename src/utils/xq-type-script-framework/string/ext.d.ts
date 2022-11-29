@@ -6,7 +6,7 @@
 //  Copyright © 2020 IT_IOS_MAN. All rights reserved.
 //
 
-/// <reference path="./object/ext.d.ts" /> 
+/// <reference path="../object/ext.d.ts" /> 
 
 /**
  *  字符串 扩展工具类 (唯一标识工具类)
