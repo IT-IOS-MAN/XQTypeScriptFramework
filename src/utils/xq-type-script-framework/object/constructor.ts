@@ -15,9 +15,7 @@ Object.prototype.xq_isNull = function () : boolean {
   if (typeof this == 'number') {
     return false;
   }
-  if (this instanceof Array) {
-    if (this.length == 0) return true;
-  } else if (this instanceof Object) {
+  if (this instanceof Object) {
     if (JSON.stringify(this) === '{}') return true;
   } else {
     if (this == 'null' || this == null || this == 'undefined' || this == undefined || this == '') return true;

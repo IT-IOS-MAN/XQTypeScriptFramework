@@ -1,6 +1,6 @@
 {
     "name": "xq-type-script-framework",
-    "version": "1.1.96",
+    "version": "1.1.99",
     "description": "type script framework",
     "main": "index.ts",
     "types": "./index.ts",

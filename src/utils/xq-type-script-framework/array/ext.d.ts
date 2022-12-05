@@ -77,4 +77,19 @@ interface Array<T> extends Object {
      * 清除数组
      */
     xq_clean(): void;
+
+
+    /**
+     * 数组是否为空 null | []
+     * @param obj 
+     */
+     xq_isEmpty(): boolean;
+
+     /**
+     * 数组是否不为空 null | []
+     * @param obj 
+     */
+      xq_isNotEmpty(): boolean;
+
+
 } 

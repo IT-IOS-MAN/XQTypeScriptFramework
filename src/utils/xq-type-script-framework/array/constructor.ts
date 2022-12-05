@@ -62,3 +62,11 @@ Array.prototype.xq_clean = function() : void {
   if (this.xq_isNull()) return;
   this.length = 0;
 }
+
+Array.prototype.xq_isEmpty = function(): boolean {
+  return this.xq_isNull() && this.length == 0;
+}
+
+ Array.prototype.xq_isNotEmpty = function(): boolean {
+  return !this.xq_isEmpty();
+ }
