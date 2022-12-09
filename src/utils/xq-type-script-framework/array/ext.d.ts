@@ -16,12 +16,12 @@ interface Array<T> extends Object {
     /**
      * 获取第一个元素
      */
-    xq_firstElement(): T | undefined;
+    readonly xq_firstElement: T | undefined;
 
     /**
      * 获取最后一个元素
      */
-    xq_lastElement(): T | undefined;
+    readonly xq_lastElement: T | undefined;
 
     /**
      * 添加一个元素

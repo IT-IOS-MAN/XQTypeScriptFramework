@@ -8,12 +8,10 @@
 
 /// <reference path="./ext.d.ts" /> 
 
-Object.defineProperty(Object.prototype, "xq_deepClone", {
-  get() {
-    return () => {
-      const _obj = JSON.stringify(this);
-      const objClone = JSON.parse(_obj);
-      return objClone;
-    }
-  }
-})
+String.prototype.xq_isEmpty = function (): boolean {
+    return this.xq_isNull() || this.length == 0;
+}
+
+String.prototype.xq_isNotEmpty = function (): boolean {
+    return !this.xq_isEmpty();
+}

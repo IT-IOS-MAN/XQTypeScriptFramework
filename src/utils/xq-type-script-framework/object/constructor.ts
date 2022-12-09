@@ -8,23 +8,34 @@
 
 /// <reference path="./ext.d.ts" /> 
 
-Object.prototype.xq_isNull = function () : boolean {
-  if (typeof this == 'boolean') {
-    return false;
-  }
-  if (typeof this == 'number') {
-    return false;
-  }
-  if (this instanceof Object) {
-    if (JSON.stringify(this) === '{}') return true;
-  } else {
-    if (this == 'null' || this == null || this == 'undefined' || this == undefined || this == '') return true;
-    return false;
-  }
-  return false;
+Object.defineProperty(Object.prototype, "xq_isNull", {
 
-}
+  get() {
+    return () => {
+      if (typeof this == 'boolean') {
+        return false;
+      }
+      if (typeof this == 'number') {
+        return false;
+      }
+      if (this instanceof Object) {
+        if (JSON.stringify(this) === '{}') return true;
+      } else {
+        if (this == 'null' || this == null || this == 'undefined' || this == undefined) return true;
+        return false;
+      }
+      return false;
+    }
+  }
 
-Object.prototype.xq_isNotNull = function() : boolean {
-  return !this.xq_isNull();
-}
+})
+
+Object.defineProperty(Object.prototype, "xq_isNotNull", {
+
+  get() {
+    return () => {
+      return !this.xq_isNull();
+    }
+  }
+
+})

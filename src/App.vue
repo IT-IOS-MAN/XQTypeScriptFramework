@@ -14,7 +14,7 @@ export default defineComponent({
   },
 
   created() {
-    console.log(["qqq"].xq_isNotNull());
+    console.log(["iOS", "Android"].xq_isNull());
   },
 });
 </script>

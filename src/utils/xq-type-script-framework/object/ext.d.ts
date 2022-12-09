@@ -31,5 +31,5 @@ interface Object {
      * 模拟深拷贝
      * @param obj 拷贝对象
      */
-    xq_deepClone(obj: any): any;
+    xq_deepClone(): any;
 }

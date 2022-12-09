@@ -12,9 +12,9 @@ String.prototype.xq_lastPathComponent = function () : string | undefined {
   if (this.xq_isNull()) return undefined;
 
   if (this.indexOf("/") > 0) {
-    return this.split('/').xq_lastElement();
+    return this.split('/').xq_lastElement;
   } else if (this.indexOf("\\") > 0) {
-    return this.split('\\').xq_lastElement();
+    return this.split('\\').xq_lastElement;
   } else {
     return this.toString();
   }
@@ -36,7 +36,7 @@ String.prototype.xq_pathExtension = function () : string | undefined {
   if (this.xq_isNull()) return undefined;
 
   if (this.indexOf(".") > 0) {
-    return this.split('.').xq_lastElement();
+    return this.split('.').xq_lastElement;
   } else {
     return this.toString();
   }
