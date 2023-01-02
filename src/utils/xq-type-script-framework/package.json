@@ -1,6 +1,6 @@
 {
     "name": "xq-type-script-framework",
-    "version": "1.2.2",
+    "version": "1.2.3",
     "description": "type script framework",
     "main": "index.ts",
     "types": "./index.ts",
@@ -29,6 +29,7 @@
         "string",
         "object",
         "number",
+        "boolean",
         "index.ts",
         "typings.json"
     ]

@@ -31,7 +31,10 @@ Array.prototype.xq_addElement = function <T extends Object>(obj: T): void {
 
 Array.prototype.xq_addElements = function <T extends Object>(objs: T[]): void {
   if (this.xq_isNull() || objs.xq_isNull()) return;
-  this.push(objs);
+  objs.forEach((obj: T) => {
+    this.push(obj);
+  })
+  
 }
 
 Array.prototype.xq_insertElement = function <T extends Object>(obj: T, index: number): void {
